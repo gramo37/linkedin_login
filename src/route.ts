@@ -3,7 +3,7 @@ import puppeteer from "puppeteer-core";
 import { saveCookies, sortLinkedInCookies } from "./helper";
 const sleep = (ms: any) => new Promise((res) => setTimeout(res, ms));
 
-const token = "2SrMqbZO9BcDnfX674a128642139c10f7ca72cd4200d63a93";
+const token = "";
 const timeout = 300000;
 
 const hybrid = async (username: string, password: string) => {
